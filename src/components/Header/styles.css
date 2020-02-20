@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+
+#main-header {
+  padding: 70px;
+  text-align: center;
+  color: black;
+  font-size: 100px;
+  font-family: Cookie, sans-serif;
+  text-shadow: 2px 2px white;
+  background-image: url("../../imgcap.jpg");
+  background-repeat:no-repeat;
+  background-color: #030406;
+  height: 500px; 
+  background-position: center; 
+  background-size: cover;
+}
