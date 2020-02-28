@@ -9,18 +9,21 @@
 .ant-carousel .slick-slide h3 {
   color: #fff;
 }
-img {
+
+.Bar-item img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
-  
+  margin-bottom: 10px;
 }
-a{
+.Bar-item a {
   text-align: center;
   color: #fff;
   padding-top: 10px;
 }
+.Bar-item a:hover {
+  color: #5a2ea6;
+  }

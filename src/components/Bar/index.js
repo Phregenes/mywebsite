@@ -10,15 +10,15 @@ import twitter from '../../assets/img/twitter.png';
 
 const Bar = () =>(
   <Carousel autoplay>
-    <div>
-    <img src={linkedin} alt="Pedro Regenes" />
+    <div className="Bar-item">
+      <img src={linkedin} alt="Pedro Regenes" />
       <a href="https://www.linkedin.com/in/phregenes/">Acessar perfil no Linkedin</a>
     </div>
-    <div>
+    <div className="Bar-item">
       <img src={github} alt="Pedro Regenes" />
       <a href="https://github.com/Phregenes">Acessar perfil no github</a>
     </div>
-    <div>
+    <div className="Bar-item">
       <img src={twitter} alt="Pedro Regenes" />
       <a href="https://www.linkedin.com/in/phregenes/">Acessar perfil no Twitter</a>
     </div>
